@@ -14,14 +14,14 @@ export  class ImageGalleryItem extends Component {
     showModal : false};
 
   openModal = () => {
-    console.log("open");
+    // console.log("open");
     this.setState({
       showModal: true,
       });
   }
   
   closeModal = () => {
-    console.log("close");
+    // console.log("close");
     this.setState({
       showModal: false
       });
